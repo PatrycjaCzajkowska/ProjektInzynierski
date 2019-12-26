@@ -1,8 +1,7 @@
-package com.services.dao;
+package com.example.demo.services.dao;
 
+import com.example.demo.services.domain.User;
 import org.springframework.stereotype.Repository;
-
-import com.services.domain.User;
 
 @Repository("userDAO")
 public class UserDAO {

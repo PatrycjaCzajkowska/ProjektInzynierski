@@ -1,10 +1,9 @@
-package com.services;
+package com.example.demo.services;
 
+import com.example.demo.services.dao.UserDAO;
+import com.example.demo.services.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.services.dao.UserDAO;
-import com.services.domain.User;
 
 @Service("userService")
 public class UserService {
